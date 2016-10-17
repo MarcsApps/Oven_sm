@@ -1,0 +1,117 @@
+/*This one surprisingly doesn’t take too much code to pull off. Once again, we’re clearing our list styles and setting some typography related CSS. The thing that you have to understand is that you need to float your images to the left so that the paragraphs appear next to them.*/
+
+
+ 
+ 
+ul {
+	 padding-left: 0;
+	 
+	 
+	background-image: -webkit-linear-gradient(2deg,rgba(79,79,79,1.00) 0%,rgba(214,214,214,0.75) 16.06%);
+	background-image: -moz-linear-gradient(2deg,rgba(79,79,79,1.00) 0%,rgba(214,214,214,0.75) 16.06%);
+	background-image: -o-linear-gradient(2deg,rgba(79,79,79,1.00) 0%,rgba(214,214,214,0.75) 16.06%);
+	background-image: linear-gradient(88deg,rgba(79,79,79,1.00) 0%,rgba(214,214,214,0.75) 16.06%);
+	width: 70%;
+	 
+	 
+	margin: auto;
+	 }
+
+h3 {
+  font: bold 20px/2 ;
+}
+
+li img {
+	float: left;
+	margin-top: 0;
+	margin-left: 0;
+	margin-bottom: 0;
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+li p { 
+  font: 200 12px/1.5 ; 
+}
+
+li a {
+	opacity: 1;
+	overflow: auto;
+	color: #000000;
+	height: 10%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border-spacing: 0px 0px;
+	text-decoration: none;
+	 
+}
+ 
+
+li {
+	padding: 10px;
+	overflow: auto;
+	
+	padding: 10px;
+	overflow: auto;
+	color: #000000;
+	height: 10%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: thin outset #000000;
+	border-top-right-radius: 0px;
+	text-shadow: -1px -1px 1px rgba(185,190,240,0.65);
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+ 
+
+div {
+
+  margin: 20px;
+}
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 2em;
+	background-repeat: no-repeat;
+	background-image: url(../iconoriginal.png);
+	height: 100%;
+  }
+ 
+  
+body h1 {
+	font-weight: bold;
+	font-size: 3em;
+	text-align: center;
+	text-shadow: -3px 2px 3px rgba(151,141,192,0.44);
+	text-transform: capitalize;
+	letter-spacing: -10%;
+	border-style: solid;
+	background-color: #FF9013;
+ }
+ 
+
+ 
+li:hover {
+	background-color: #FFB45F;
+	cursor: pointer;
+	color: #000000;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: thin solid #000000;
+	cursor: pointer;
+  }
+#Nav1 {
+	font-family: alfa-slab-one;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	-webkit-transition: all 2s;
+	-o-transition: all 2s;
+	transition: all 2s;
+}
+body button {
+}
