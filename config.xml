@@ -47,7 +47,7 @@
     <author href="MarcsApps" email="support@MarcsApps">
         MarcsApps
     </author>
-<preference name="AutoHideSplashScreen" value="false" /> 
+<!-- <preference name="AutoHideSplashScreen" value="false" /> -->
 <preference name="SplashScreenDelay" value="3000" />
 <preference name="SplashMaintainAspectRatio" value="false" />
 <preference name="SplashShowOnlyFirstTime" value="false" />
