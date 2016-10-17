@@ -12,9 +12,7 @@
         How to use Kitchen Aid Oven and Microwave
     </description>
 
-    <author href="http://marcsapps.com" email="support@marcsapps.com">
-        Marc Apps
-    </author>
+    <author href="http://marcsapps.com" email="support@marcsapps.com">Marc Apps\</author>
 
     <!-- Define the main entry-point to the application -->
     <content src="index.html" />
