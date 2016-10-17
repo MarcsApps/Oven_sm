@@ -11,7 +11,7 @@
     <!-- versionCode is optional and Android only -->
     
     <!-- define which version of phonegap to use, not required -->
-   	<preference name="phonegap-version" value="6.3.0" /> <!-- all: current version of PhoneGap -->
+   	<!-- <preference name="phonegap-version" value="6.3.0" /> <!-- all: current version of PhoneGap --> 
 	<preference name="orientation"  value="default" />    <!-- all: default means both landscape and portrait are enabled -->
 	<preference name="android-minSdkVersion"      value="7" />              <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
 	
