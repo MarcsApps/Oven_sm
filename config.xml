@@ -67,24 +67,14 @@ Core plugins
 	
 	
 	<!--
-
 something about this breaks cli 6.3.0
-
 	<preference name="orientation"  value="default" />    <!-- all: default means both landscape and portrait are enabled --> 
-
-
-
-
 
 	<!-- <preference name="android-minSdkVersion"      value="7" />              <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
 
-	
-	
-	
+		
 	<!-- this app will have no device api access -->
 	<preference name="permissions" value="none"/>
-
-
 	 
 	<!-- the default icon to be use, for BlackBerry must be less than 16kb -->
 	<icon src="iconoriginal.png" />
