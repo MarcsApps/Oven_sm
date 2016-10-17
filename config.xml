@@ -65,10 +65,7 @@ Core plugins
     <!-- Define app icon and splashscreen for each platform. -->
 	
 	
-	
-	<!--
-something about this breaks cli 6.3.0
-	<preference name="orientation"  value="default" />    <!-- all: default means both landscape and portrait are enabled --> 
+	 
 
 	<!-- <preference name="android-minSdkVersion"      value="7" />              <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
 
@@ -103,9 +100,7 @@ something about this breaks cli 6.3.0
 
     <name>Oven Use</name>
 
-    <description>
-        Instructions for Kitchen Aid Oven. 
-    </description>
+    <description>Instructions for Kitchen Aid Oven.</description>
 
     <author href="MarcsApps" email="support@MarcsApps">MarcsApps</author>
 	
