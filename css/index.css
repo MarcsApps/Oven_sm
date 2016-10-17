@@ -75,9 +75,11 @@ div {
 body {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 2em;
-	background-repeat: no-repeat;
-	background-image: url(../Oven_splash.png);
+	background-image: url(../iconoriginal.png);
 	height: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
   }
  
   
