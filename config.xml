@@ -1,35 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
-<widget xmlns     = "http://www.w3.org/ns/widgets"
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.marcapps.ovenuse"
-        version   = "0.2.1">
+        id        = "org.Ovenhelp"
+        versionCode="10" 
+        version   = "1.0.0">
+		
+	<!-- For more information about using config.xml, see
+		https://build.phonegap.com/docs/config-xml -->
 
-    <name>Oven Use</name>
-
-    <description>
-        How to use Kitchen Aid Oven and Microwave
-    </description>
-
-    <author href="http://marcsapps.com" email="support@marcsapps.com">Marc Apps\</author>
-
-    <!-- Define the main entry-point to the application -->
-    <content src="index.html" />
-
-    <!-- Customize your app and platform with the preference element. -->
-    <preference name="DisallowOverscroll"         value="true" />
-    <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
- 
-<plugin name="cordova-plugin-splashscreen" spec="3.2.2" />
- 
+    <!-- versionCode is optional and Android only -->
+    
+    <!-- define which version of phonegap to use, not required -->
+   	<preference name="phonegap-version" value="3.5.0" /> <!-- all: current version of PhoneGap -->
+	<preference name="orientation"  value="default" />    <!-- all: default means both landscape and portrait are enabled -->
+	<!-- <preference name="android-minSdkVersion"      value="7" />    -->           <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
+	
+	
+	
 	<!-- this app will have no device api access -->
 	<preference name="permissions" value="none"/>
-	 
+
+
+	<plugin name="cordova-plugin-splashscreen"        source="npm" spec="~3.2.1" />
 	<!-- the default icon to be use, for BlackBerry must be less than 16kb -->
 	<icon src="iconoriginal.png" />
 
-	 
+	<!-- the default splash screen to use -->
+	<!-- iOS -->
+	<gap:splash src="Oven_splash.png" width="320" height="480" />
+	<gap:splash src="Oven_splash.png" width="640" height="960" />
+	<gap:splash src="Oven_splash.png" width="1024" height="768" />
+	<gap:splash src="Oven_splash.png" width="768" height="1024" />
 	<!-- Android -->
 	<gap:splash src="Oven_splash.png" gap:platform="android" gap:density="ldpi" />
 	<gap:splash src="Oven_splash.png" gap:platform="android" gap:density="mdpi" />
@@ -48,15 +49,17 @@
 
     <name>Oven Use</name>
 
-    <description>Instructions for Kitchen Aid Oven.</description>
+    <description>
+        Instructions for Kitchen Aid Oven. 
+    </description>
 
-    <author href="MarcsApps" email="support@MarcsApps">MarcsApps</author>
-	
-
-<preference name="AutoHideSplashScreen" value="true" /> 
-<preference name="SplashScreenDelay" value="3000" />
-<preference name="SplashMaintainAspectRatio" value="false" />
-<preference name="SplashShowOnlyFirstTime" value="false" />
+    <author href="MarcsApps" email="support@MarcsApps">
+        MarcsApps
+    </author>
+	<preference name="AutoHideSplashScreen" value="true" /> 
+	<preference name="SplashScreenDelay" value="3000" />
+	<preference name="SplashMaintainAspectRatio" value="false" />
+	<preference name="SplashShowOnlyFirstTime" value="false" />
 
     <preference name="SplashScreen" value="screen" />
     <preference name="FadeSplashScreen" value="false" />
