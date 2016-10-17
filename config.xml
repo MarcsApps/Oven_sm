@@ -64,8 +64,16 @@ Core plugins
 
     <!-- Define app icon and splashscreen for each platform. -->
 	
+
 	
-	
+	<!-- this app will have no device api access -->
+	<preference name="permissions" value="none"/>
+
+
+	 
+	<!-- the default icon to be use, for BlackBerry must be less than 16kb -->
+	<icon src="iconoriginal.png" />
+
 	<!-- the default splash screen to use -->
 	<!-- iOS -->
 	<gap:splash src="Oven_splash.png" width="320" height="480" />
