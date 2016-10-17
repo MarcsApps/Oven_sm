@@ -101,13 +101,17 @@ Core plugins
 	<!-- Windows Phone -->
 	<gap:splash src="Oven_splash.png" gap:platform="winphone" />
 
-    <name>Oven Use</name>
-
-    <description>
-        Instructions for Kitchen Aid Oven. 
-    </description>
-
-    <author href="MarcsApps" email="support@MarcsApps">MarcsApps</author>
 	
-	
+<preference name="AutoHideSplashScreen" value="true" /> 
+<preference name="SplashScreenDelay" value="3000" />
+<preference name="SplashMaintainAspectRatio" value="false" />
+<preference name="SplashShowOnlyFirstTime" value="false" />
+
+    <preference name="SplashScreen" value="screen" />
+    <preference name="FadeSplashScreen" value="false" />
+   
+    <preference name="SplashMaintainAspectRatio" value="true" />
+   
+    <preference name="ShowSplashScreenSpinner" value="false" />
+
 </widget>
