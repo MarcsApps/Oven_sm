@@ -91,16 +91,14 @@ Core plugins
 	<gap:splash src="Oven_splash.png" gap:platform="android" gap:density="hdpi" />
 	<gap:splash src="Oven_splash.png" gap:platform="android" gap:density="xhdpi" />
 	
-	
-	<icon src="Oven_splash.png"   gap:platform="android"    gap:density="ldpi" />
-    <icon src="Oven_splash.png"   gap:platform="android"    gap:density="mdpi" />
-    <icon src="Oven_splash.png"   gap:platform="android"    gap:density="hdpi" />
-    <icon src="Oven_splash.png"  gap:platform="android"    gap:density="xhdpi" />
-	<!-- BlackBerry -->
-	<gap:splash src="Oven_splash.png" gap:platform="blackberry" />
-	<!-- Windows Phone -->
-	<gap:splash src="Oven_splash.png" gap:platform="winphone" />
+    <name>Oven Use</name>
 
+    <description>
+        Instructions for Kitchen Aid Oven. 
+    </description>
+
+    <author href="MarcsApps" email="support@MarcsApps">MarcsApps</author>
+	
 	
 <preference name="AutoHideSplashScreen" value="true" /> 
 <preference name="SplashScreenDelay" value="3000" />
