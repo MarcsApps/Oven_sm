@@ -20,7 +20,7 @@
 
 	<plugin name="cordova-plugin-splashscreen"        source="npm" spec="~3.2.1" />
 	<!-- the default icon to be use, for BlackBerry must be less than 16kb -->
-	<icon src="Oven_icon.png" />
+	<icon src="iconoriginal.png" />
 
 	<!-- the default splash screen to use -->
 	<!-- iOS -->
