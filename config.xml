@@ -64,7 +64,22 @@ Core plugins
 
     <!-- Define app icon and splashscreen for each platform. -->
 	
+	
+	
+	<!--
 
+something about this breaks cli 6.3.0
+
+	<preference name="orientation"  value="default" />    <!-- all: default means both landscape and portrait are enabled --> -->
+
+
+
+
+
+	<!-- <preference name="android-minSdkVersion"      value="7" />              <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
+
+	
+	
 	
 	<!-- this app will have no device api access -->
 	<preference name="permissions" value="none"/>
@@ -104,7 +119,7 @@ Core plugins
 
     <author href="MarcsApps" email="support@MarcsApps">MarcsApps</author>
 	
-	
+
 <preference name="AutoHideSplashScreen" value="true" /> 
 <preference name="SplashScreenDelay" value="3000" />
 <preference name="SplashMaintainAspectRatio" value="false" />
