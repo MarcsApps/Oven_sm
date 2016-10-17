@@ -4,7 +4,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.marcapps.ovenuse"
-        version   = "1.0.0">
+        version   = "0.2.1">
 
     <name>Oven Use</name>
 
@@ -47,8 +47,11 @@
     <plugin name="cordova-plugin-media"               source="npm" spec="~2.2.0" />
     <plugin name="cordova-plugin-network-information" source="npm" spec="~1.2.0" />
     -->
-	<plugin name="cordova-plugin-splashscreen"        source="npm" spec="~3.2.1" />
-    <plugin name="cordova-plugin-statusbar"           source="npm" spec="~2.1.2" />
+	<plugin name="cordova-plugin-splashscreen"        source="npm" spec="~3.2.1" /> 
+
+
+	<!-- <plugin name="cordova-plugin-statusbar"           source="npm" spec="~2.1.2" /> -->
+  
     
 	<!--	
 	<plugin name="cordova-plugin-vibration"           source="npm" spec="~2.1.0" />
@@ -71,7 +74,7 @@ Core plugins
 	<preference name="permissions" value="none"/>
 
 
-	<!-- <plugin name="cordova-plugin-splashscreen"        source="npm" spec="~3.2.1" /> -->
+	 
 	<!-- the default icon to be use, for BlackBerry must be less than 16kb -->
 	<icon src="iconoriginal.png" />
 
