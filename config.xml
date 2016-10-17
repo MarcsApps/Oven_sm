@@ -66,20 +66,18 @@ Core plugins
 	
 	
 	
-	<preference name="orientation"  value="default" />    <!-- all: default means both landscape and portrait are enabled -->
-	<!-- <preference name="android-minSdkVersion"      value="7" />              <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
-	
-	
-	
-	<!-- this app will have no device api access -->
-	<preference name="permissions" value="none"/>
-
-
-	 
-	<!-- the default icon to be use, for BlackBerry must be less than 16kb -->
-	<icon src="iconoriginal.png" />
-
 	<!-- the default splash screen to use -->
+	<!-- iOS -->
+	<gap:splash src="Oven_splash.png" width="320" height="480" />
+	<gap:splash src="Oven_splash.png" width="640" height="960" />
+	<gap:splash src="Oven_splash.png" width="1024" height="768" />
+	<gap:splash src="Oven_splash.png" width="768" height="1024" />
+	<!-- Android -->
+	<gap:splash src="Oven_splash.png" gap:platform="android" gap:density="ldpi" />
+	<gap:splash src="Oven_splash.png" gap:platform="android" gap:density="mdpi" />
+	<gap:splash src="Oven_splash.png" gap:platform="android" gap:density="hdpi" />
+	<gap:splash src="Oven_splash.png" gap:platform="android" gap:density="xhdpi" />
+	
 	
 	<icon src="Oven_splash.png"   gap:platform="android"    gap:density="ldpi" />
     <icon src="Oven_splash.png"   gap:platform="android"    gap:density="mdpi" />
